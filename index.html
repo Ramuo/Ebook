@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/boostrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" />
+
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <title>Bootstrap starter</title>
+</head>
+<body>
+    <!-- Nav Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.png" alt="Logo" width="225">
+                </a>
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarDropdown"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link fw-semibold">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#details.html" class="nav-link fw-semibold">Détails</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                              href="contact.html" 
+                              class="btn btn-outline-light fw-bold px-4 mx-4">Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero-->
+    <header class="header">
+        <div class=" hero text-white pt-7">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image-container mb-5 px-4">
+                            <img src="images/header-ebook.png" alt="header-ebook" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5">
+                            <h1 class="display-3 fw-bold">Bienvenue chez Mastary</h1>
+                            <p class="lead">
+                                Êtes-vous prêt à emmener votre voyage de blogueur vers de nouveaux sommets ? Blog Mastery est votre guide ultime pour créer et gérer un blog réussi qui captive votre public et stimule l'engagement.
+                            </p>
+                            <!-- Form -->
+                            <div class="form-container text-center">
+                                <form>
+                                    <div class="my-4">
+                                        <input type="email" 
+                                        class="form-control form-control-lg rounded-5"
+                                        placeholder="Adresse E-mail"
+                                        >
+                                    </div>
+                                    <div class="d-grid">
+                                        <button class="btn btn-primary btn-lg text-white">Téléchargement gratuit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+        >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #f3f6f9;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+        </svg>
+    </header>
+
+    <!-- Icons -->
+    <section class="icons bg-light pb-5">
+        <div class="container-xl">
+            <div class="row hstack g-4">
+                <div class="col-md-4 d-flex gap-4">
+                    <i class="fas fa-user fa-3x text-primary"></i>
+                   <div>
+                    <h5 class="fw-bold">
+                        Libérez votre potentiel de bloggeur
+                    </h5>
+                    <p class="text-muted">
+                        Découvrez la clé pour libérer votre véritable potentiel de bloggeur. Notre ebook fournit des conseils d'experts sur la création de contenu convaincant
+                    </p>
+                   </div>
+                </div>
+
+                <div class="col-md-4 d-flex gap-4">
+                    <i class="fas fa-rocket fa-3x text-secondary"></i>
+                   <div>
+                    <h5 class="fw-bold">
+                        Montez en flèche en matière de blog
+                    </h5>
+                    <p class="text-muted">
+                        Amenez votre blog vers de nouveaux sommets grâce à nos stratégies éprouvées pour générer du trafic et augmenter la visibilité.
+                    </p>
+                   </div>
+                </div>
+
+                <div class="col-md-4 d-flex gap-4">
+                    <i class="fas fa-euro fa-3x text-primary"></i>
+                   <div>
+                    <h5 class="fw-bold">
+                       Fructifier votre blog
+                    </h5>
+                    <p class="text-muted">
+                        Transformez votre passion pour les blogs en une entreprise rentable. Notre ebook révèle des stratégies de monétisation éprouvées
+                    </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details 1 -->
+    <section id="details" class="details my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container d-flex flex-column justify-content-center h-100">
+                        <h2 class="display-6">Libérez votre potentiel de bloggeur</h2>
+                        <p>
+                            Êtes-vous prêt à libérer votre véritable potentiel de bloggeur ? Notre ebook, "Blog Mastery", vous fournit les outils et les connaissances nécessaires pour faire passer votre blog au niveau supérieur.
+                        </p>
+                        <ul class="list-group list-group-flush lh-lg">
+                            <li class="list-group-item">
+                                <i class="fas fa-square text-primary"></i>
+                                <strong>Libérez votre créativité :</strong> notre ebook vous permet de libérer votre créativité et d'exprimer votre voix unique à travers votre blog.
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-square text-primary"></i>
+                                <strong>Maximisez votre portée :</strong> Découvrez comment optimiser votre blog pour les moteurs de recherche.
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-square text-primary"></i>
+                                <strong>Stratégies de monétisation : :</strong> Découvrez diverses stratégies de monétisation, telles que le contenu sponsorisé et le marketing d'affiliation.
+                            </li>
+                        </ul>
+                        <a 
+                        class="btn btn-primary text-white mt-4 align-self-start" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal1"
+                        >
+                            Obtenez votre copie
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container p-5">
+                        <img src="images/description.png" alt="Description Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal fade">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image-container">
+                  <img src="images/description.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="text-container">
+                    <h2 class="display-6">Libérez votre potentiel de bloggeur</h2>
+                    <p>
+                        Êtes-vous prêt à libérer votre véritable potentiel de bloggeur ? Notre ebook, "Blog Mastery", 
+                        vous fournit les outils et les connaissances nécessaires pour faire passer votre blog au niveau 
+                        supérieur.
+                    </p>
+                    <ul class="list-group list-group-flush lh-lg">
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Libérez votre créativité :</strong> 
+                            notre ebook vous permet de libérer votre créativité et d'exprimer votre voix unique à travers 
+                            votre blog.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Maximisez votre portée :</strong> 
+                            Découvrez comment optimiser votre blog pour les moteurs de recherche.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Stratégies de monétisation :
+                            </strong> Découvrez diverses stratégies de monétisation, 
+                            telles que le contenu sponsorisé et le marketing d'affiliation.
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn-primary text-white">Télécharger</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">
+                        Fermé
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Statement -->
+      <section class="statement mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-container bg-light p-5 rounded-5">
+                        <h2>Maîtrisez l'art de l'excellence des blogs</h2>
+                        <p>
+                            Transformez votre blog d'un simple passe-temps en un site en ligne florissant
+                            business avec notre ebook, "Blog Mastery: Monetize Your Passion."
+                            Cette ressource inestimable est votre feuille de route pour transformer votre blog
+                            dans une entreprise rentable. Découvrez comment monétiser votre contenu
+                            à travers diverses stratégies telles que les publications sponsorisées, l'affiliation
+                            commercialisation et création de produits. Obtenez des informations sur la construction d'un
+                            marque forte, attirant des partenariats lucratifs et maximisant
+                            votre potentiel de gain. Sautez le pas et débloquez les finances
+                            récompenses de votre parcours de blogueur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Details 2 -->
+      <section class="details my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container p-5">
+                        <img src="images/author.png" alt="Author" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div
+                      class="text-container d-flex flex-column justify-content-center h-100"
+                    >
+                      <h2 class="display-6">Créer un contenu remarquable</h2>
+                      <p>
+                        Découvrez des techniques pour un storytelling efficace, engageant
+                        des visuels et des appels à l'action convaincants. Découvrez les secrets de
+                        créer une voix de marque cohérente et authentique qui vous définit
+                        en dehors de la concurrence.
+                      </p>
+                      <ul class="list-group list-group-flush lh-lg">
+                        <li class="list-group-item">
+                          <i class="fas fa-square text-primary"></i>
+                          <strong>Embrassez votre voix unique :</strong> Learn how to
+                          exploitez la puissance de votre voix unique.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fas fa-square text-primary"></i>
+                          <strong>Stimulez la créativité :</strong> Explore techniques to spark
+                          créativité et surmonter le blocage de l'écrivain.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fas fa-square text-primary"></i>
+                          <strong>Engagez vos lecteurs :</strong> Discover strategies for
+                          créer du contenu qui engage vos lecteurs à un niveau plus profond.
+                        </li>
+                      </ul>
+                      <a
+                        class="btn btn-primary text-white mt-4 align-self-start"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal2"
+                        >En savoir plus</a
+                      >
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Modal 2 -->
+    <div id="modal2" class="modal fade">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image-container">
+                  <img src="images/author.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="text-container">
+                    <h2 class="display-6">Créer un contenu remarquable</h2>
+                    <p>
+                        Découvrez des techniques pour un storytelling efficace, engageant
+                        des visuels et des appels à l'action convaincants. Découvrez les secrets de
+                        créer une voix de marque cohérente et authentique qui vous définit
+                        en dehors de la concurrence.
+                    </p>
+                    <ul class="list-group list-group-flush lh-lg">
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Libérez votre créativité :</strong> 
+                            notre ebook vous permet de libérer votre créativité et d'exprimer votre voix unique à travers 
+                            votre blog.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Stimulez la créativité :</strong> Explore techniques to spark
+                            créativité et surmonter le blocage de l'écrivain.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-square text-primary"></i>
+                            <strong>Engagez vos lecteurs :</strong> Discover strategies for
+                          créer du contenu qui engage vos lecteurs à un niveau plus profond.
+                        </li>
+                        </li>
+                    </ul>
+                    <a href="" class="btn btn-primary text-white">Télécharger</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">
+                        Fermé
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <section class="testimonials mb-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img 
+                    src="https://randomuser.me/api/portraits/men/32.jpg" alt="" 
+                    class="rounded-circle mb-3"
+                    >
+                    <p class="lead fst-italic">
+                        "Cet ebook a complètement transformé mon parcours de blogueur.
+                        des stratégies pratiques et des idées précieuses m'ont aidé à prendre mon blog
+                        vers de nouveaux sommets. Je le recommande fortement!"
+                    </p>
+                    <p class="fw-bold">
+                        Philipps - France 
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img 
+                    src="https://randomuser.me/api/portraits/women/32.jpg" alt="" 
+                    class="rounded-circle mb-3"
+                    >
+                    <p class="lead fst-italic">
+                        "Je suis tellement reconnaissant pour cet ebook ! Il m'a fourni les conseils
+                        et l'inspiration dont j'avais besoin pour créer un contenu engageant et construire un
+                        lectorat fidèle. Cela change la donne !"
+                    </p>
+                    <p class="fw-bold">
+                        Laurie - USA 
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img 
+                    src="https://randomuser.me/api/portraits/men/31.jpg" alt="" 
+                    class="rounded-circle mb-3"
+                    >
+                    <p class="lead fst-italic">
+                        "Je suis tellement reconnaissant pour cet ebook ! Il m'a fourni les conseils
+                        et l'inspiration dont j'avais besoin pour créer un contenu engageant et construire un
+                        lectorat fidèle. Cela change la donne !"
+                    </p>
+                    <p class="fw-bold">
+                        Henry - Belgique 
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Download -->
+      <section class="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="image-container mt-n6 mb-5">
+                        <img src="images/download-ebook.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="text-container text-white d-flex flex-column justify-content-center h-100 mb-5">
+                        <h2 class="fw-bold">Obtenez votre ebook gratuit maintenant</h2>
+                        <p>
+                            Libérez le pouvoir de la connaissance et emmenez votre voyage de blogueur vers
+                            le niveau suivant. Notre ebook, "Blog Mastery: The Ultimate Guide to
+                            Blogging Success", est la clé de votre succès.
+                        </p>
+
+                        <!-- Form -->
+                        <form>
+                            <div class="input-group mb-3">
+                                <input 
+                                type="text"
+                                class="form-control"
+                                placeholder="Adresse E-mail"
+                                />
+                                <button class="btn btn-primary text-white rounded-end">
+                                    Téléchargé
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Social -->
+      <section class="social text-bg-dark py-6 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center fs-4">
+                    <p>
+                        Restez connecté et rejoignez notre communauté dynamique. Pour toute demande
+                        ou assistance, n'hésitez pas à nous contacter
+                    </p>
+                    <div class="social-icons d-flex justify-content-center gap-4">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i class="fab fa-pinterest fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border-top border-primary bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link link-light">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#details" class="nav-link link-light">Détails</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link link-light">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-end d-none d-md-block">
+                        Copyright &copy; Blog Mastery 2023
+                    </p>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
